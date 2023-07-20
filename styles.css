@@ -1,0 +1,48 @@
+body {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("./background.jpeg");
+}
+
+.container-selections {
+  border: none;
+  flex: 1;
+  display: flex;
+  margin: 120px;
+  justify-content: space-between;
+  background-color: transparent;
+  gap: 36px;
+}
+
+.start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+h1 {
+  margin: 6px;
+}
+
+.winner {
+  font-size: 24px;
+  text-align: center;
+}
+
+.div1 {
+  font-size: 48px;
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+}
